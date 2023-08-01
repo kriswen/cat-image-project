@@ -5,3 +5,10 @@
 .btn {
     margin: 10px 0;
 }
+
+@media (max-width: 640px) {
+    #catImage {
+      width:100%;
+      max-width:100% !important;
+    }
+}
