@@ -32,7 +32,7 @@ app.get("/gif", async (req, res) => {
       responseType: "arraybuffer",
     }); // endppint return random cat image
     let returnedB64 = Buffer.from(imageResponse.data).toString("base64");
-    let catImage = `<img height="500" alt="cat" src="data:image;base64,${returnedB64}" />`;
+    let catImage = `<img id=catImage" height="500" alt="cat" src="data:image;base64,${returnedB64}" />`;
     //console.log(catImage);
     //console.log("image res:" + returnedB64);
 
