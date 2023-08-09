@@ -1,6 +1,9 @@
-# Cat Project
+# To-Do List Full Stack App
 
-Display random cat image in jpg or gif using public API. (https://cataas.com/)
+Full stack to-do list web app.
+
+# Technoloy used:
+EJS, Express.js, Node.js, MongoDB
 
 ## Authors
 
@@ -17,9 +20,9 @@ To install dependencies
 To start this project run
 
 ```bash
-  nodemon index.js
+  node app.js
 ```
 
 ## Live view
 
-https://cat-project.onrender.com/
+[https://cat-project.onrender.com/](https://todo-list-project-hzkg.onrender.com/)https://todo-list-project-hzkg.onrender.com/
